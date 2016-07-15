@@ -1,0 +1,821 @@
+/* ----------------------------------------------------------------------------
+   # Created by: @JLV_55
+   # Date: November 28, 2015
+   # Website: www.jlv55.com
+   # www.twitter.com/JLV_55
+   # Version: 0.1v
+   ---------------------------------------------------------------------------- */
+body {margin: 0px;font-family: 'Open Sans', sans-serif !important;}
+header {height: auto; position: relative; }
+h1{font-size: 3em !important; padding-bottom: 15px; display: inline-block; font-weight: lighter !important;}
+h2{ text-align: center; font-weight: lighter !important; font-size: 3.2em !important;}
+h3{text-align: center !important; font-size: 3.2em !important; padding: 15px 0 15px 0; padding-top: 50px; font-weight: lighter !important;}
+ul li {list-style: none; margin-top: 10px;}
+a {text-decoration: none;}
+p{text-align: center;}
+footer {width: 966px; height: auto; padding-top: 50px;padding-bottom: 20px; background-color: #fff; margin: 0 auto 0 auto;}
+big {display: inline-block; font-size: 1.5em;}
+#bonitoContainer {margin-top: -60px}
+#hpuntosVenta h3  {padding-top: 10px;}
+#prensaNacional h3 {padding-top: 10px; }
+#prensaNacional p {font-size: 1.3em; line-height: 25px;}
+#prensaNacional {margin-bottom: 10px;}
+#ventaImg {height: 463px; width: 966px !important; background-image: url(A6.jpg); background-repeat: no-repeat; margin: 0 auto 0 auto;}
+.logoNavidad {margin: 0 auto 0 auto; width: 135px; display: block; float: none;}
+#tiendaOnline h2 {margin-top: 65px;}
+#fotoFondo {width: 966px; margin: 0 auto 0 auto; height: 328px; background-image: url(sob3.jpg);}
+#solalAlegraImg {width: 966px; margin: 0 auto 0 auto; height: 316px; background-image: url(sob4.jpg);}
+   #fotoFondo ul {float: left;text-align: center; width: 350px; margin-top: 20px;} 
+    .item {
+      text-align:center;
+      display: inline-block;
+      width: 28% !important;
+      height: 250px;
+      margin: 10px 2.3% 50px 2.3% !important;
+      position: relative;    
+    }
+    .item-img {   width: 100% !important; height: 180px
+}
+    .item-hover {width: 100% !important;}
+    .item-hover .mask {width: 100% !important;}
+
+      .item-hover .mask,
+      .item-info {
+        width: 300px;
+        height: 180px;            
+      }
+
+      .item-info {width: 354px; margin: 0 auto 0 auto;}
+
+      .item-hover,
+      .item-hover .mask,
+      .item-img { 
+        position:absolute;
+        top:0;
+        left:0;     
+      }     
+    
+      .item-type-zoom .item-hover { 
+        z-index:5;  
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        transition: all 300ms ease-out; 
+        opacity:0;
+        cursor:pointer;   
+        display:block;
+        text-decoration:none;
+        text-align:center;  
+
+      }
+      
+        .item-type-zoom .item-info {
+          z-index:10;
+          color:#ffffff;
+          display:table-cell;
+          vertical-align:middle;
+          position:relative;
+          z-index:5;      
+          -webkit-transform: scale(0,0);
+          -moz-transform: scale(0,0);
+          -ms-transform: scale(0,0);          
+          transform: scale(0,0);          
+          -webkit-transition: all 300ms ease-out;
+          -moz-transition: all 300ms ease-out;
+          -o-transition: all 300ms ease-out;
+          transition: all 300ms ease-out;                     
+        }
+      
+        .item-type-zoom .item-info .headline {
+          font-size:18px;     
+          width:75%;
+          margin:0 auto;    
+          border:4px solid #ffffff;
+          padding:10px;
+        }
+        
+        .item-type-zoom .item-info .line {
+           height:1px;
+           width:60%;
+           margin:15px auto 10px auto;
+           background-color:#ffffff;     
+
+        }
+        
+        .item-type-zoom .item-info .date {
+          font-size:14px;
+          font-style:italic;
+        }
+        
+        .item-type-zoom .item-hover .mask {
+          background-color:#000;
+          opacity:0.5;
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+          filter: alpha(opacity=50);          
+          
+          z-index:0;
+        }
+        
+        .item-type-zoom .item-hover:hover {
+          opacity:1;
+        }       
+        
+        .item-type-zoom .item-hover:hover .item-info {
+          -webkit-transform: scale(1,1);
+          -moz-transform: scale(1,1);
+          -ms-transform: scale(1,1);          
+          transform: scale(1,1);  
+        }               
+      
+      .item-img {     
+        background-color:#7a548f;
+        z-index:0;   
+      } 
+      .item-img  img{ height: 250px; }
+
+
+#linkPrincipal {
+  display:inline-block; width: 250px; ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-collapse {display: none !important;}
+
+
+#regalosSolal {margin: 0 auto 0 auto; width: 660px; display: block; float: none; }
+.textXL { font-size: 2em !important;line-height: 10px;}
+.textXL small {font-size: 0.6em;} 
+.textXL .smal2 {font-size: 0.6em; line-height: 0px; text-align: center;}
+#regalosSolal .textXL {font-size: 3em !important;line-height: 50px; font-weight: lighter !important; }
+#regalosSolal .textXL .smal2 {font-size: 0.6em !important;line-height: 10px; }
+#solalNavidad {margin-top: 0px; position: relative; height: 150px; margin-top: 50px;}
+
+.logo{ margin-left: 15%; position: relative; margin-top: -20px}
+
+
+
+
+
+
+#tiendaContainer {width: 100%;display: block; padding-top: 20px; padding-bottom: 20px;}
+.tiendaOpt {width: 309px; margin: 0 5px 0 5px; display: inline-block; text-align: left;}
+.tiendaOpt img {width: 326px; height: 233px;}
+.tiendaOpt ul {margin-left: 0px; text-align: left;}
+.tiendaOpt ul li {margin-top: 0px; margin-bottom: 0px;}
+#tiendaOnline .goodText {width: 670px; margin-top: -40px !important; z-index: 999;}
+
+#tiendaOpt2 {}
+#tiendaOpt3 {}
+#tiendaOpt1 {} 
+.topMargin {}
+#opt3Container .textoTienda {width: 600px;}
+.terminosycondiciones {width: 100%; margin: 50px auto 50px auto; display: block; position: relative; height: auto; float: none;}
+.terminosycondiciones div {width: 150px; margin-right: 2px; margin-left: 2px; float: left;padding-top: 50px;}
+
+#verCarrito fieldset {border: none !important;float: none;display: block; height: 100px; }
+#verCarrito { width: 450px;float: none;display: block;height: 100px;}
+#verCarrito2 fieldset {border: none !important; float: none;display: block;height: 100px;}
+#verCarrito2{  width: 450px;float: none;display: block;height: 100px;}
+#verCarrito1 fieldset {border: none !important;float: none;display: block; height: 100px;}
+#verCarrito1 { width: 450px;float: none;display: block; height: 100px;}
+#Opt1 {color: #3B5998 !important;   
+  transition: all 0.17s ease-in-out;
+-moz-transition: all 0.17s ease-in-out;
+-webkit-transition: all 0.17s ease-in-out;
+-o-transition: all 0.17s ease-in-out;}
+#Opt1:hover  {font-size: 1.2em !important; }
+
+#Opt2 {color: #3B5998 !important;   
+  transition: all 0.17s ease-in-out;
+-moz-transition: all 0.17s ease-in-out;
+-webkit-transition: all 0.17s ease-in-out;
+-o-transition: all 0.17s ease-in-out;}
+#Opt2:hover  {font-size: 1.2em !important; }
+
+#Opt3 {color: #3B5998 !important;   
+  transition: all 0.17s ease-in-out;
+-moz-transition: all 0.17s ease-in-out;
+-webkit-transition: all 0.17s ease-in-out;
+-o-transition: all 0.17s ease-in-out;}
+#Opt3:hover  {font-size: 1.2em !important; }
+
+#cabecera1 {background-image: url(e5.jpg); }
+
+#cabecera2 {background-image: url(e4.jpg); width: 966px; margin: 0 auto 0 auto; height: 500px;}
+
+#cabecera3 {background-image: url(e7.jpg); width: 804px; height: 350px; margin: 0 auto 0 auto;}
+
+
+
+
+.itemProduct {width: 700px; margin: 0 auto 0 auto; border: none !important;}
+.itemProduct fieldset {border: none !important;}
+.itemProduct p {text-align: left; padding-left: 20px; margin-top: 20px; margin-bottom: 5px; padding-top: 20px}
+.itemProduct p strong {padding-left:  20px;}
+.itemProduct ul {text-align: left;}
+.itemProduct ul li big {font-size: 1.2em; color: red;}
+.itemProduct ul li { padding-left: 20px; margin-top: 0px; margin-bottom: 0px; float: left;}
+.addtocart {}
+.itemProduct img {width: 120px; height: 100px; vertical-align: center; float: left; margin-left: 20px;margin-top: 20px;}
+.tiendaLogo {float: left; margin-left: 120px; margin-top: 50px;}
+.textoTienda { text-align: left; float: left; margin-left: 50px; }
+.textoTienda p {text-align: left;}
+.textoTienda h3 {text-align: left !important;}
+.cabeceraTienda {width: 966px; height: 522px;}
+.tienda {
+    margin-top: 0px;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.tienda ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.9em;
+}
+
+.tienda form {
+    float: left;
+    padding: 10px 10px 10px 15px;
+    border: none;
+}
+
+.tienda form strong {
+    font-size: 1.167em;
+    font-weight: bold;
+}
+
+.tienda form.last {
+    margin: 0;
+    border: 0;
+}
+
+.tienda fieldset {
+    position: relative;
+    min-width: 9em;
+    height: 9em;
+    margin: 0;
+    padding: 10px;
+    background: white;
+    border: 0;
+    border-radius: 0px;
+    border: solid 1px;
+}
+
+.tienda fieldset .button {
+    position: relative;
+    bottom: 10px;
+    float: right;
+    text-align: right;
+}
+
+.tienda .container {
+    overflow: auto;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.imageMenu {
+	display: inline-block;
+	width: 30%;
+	height: 180px;
+	margin: 10px 1.3% 10px 1.3%;
+	position: relative;
+}
+.imageMenu img {
+	width: 100%;
+	height: 180px;
+}
+
+#menu-contenedor {
+	height: auto;
+	width: 100%;
+  background-color: white;
+}
+
+ul#menu {
+	padding: 0;
+  margin-top: 200px;
+	height: 50px;
+	width: 634px;
+	margin: 0 auto 0 auto;
+
+	z-index: 100;
+}
+
+ul#menu li {
+	display: inline-block;
+}
+
+ul#menu li a {
+	padding: 0 10px;
+	display: block;
+	line-height: 50px;
+	font-size: 1.2em;
+	text-decoration: none;
+  color: black
+  transition: all 0.17s ease-in-out;
+-moz-transition: all 0.17s ease-in-out;
+-webkit-transition: all 0.17s ease-in-out;
+-o-transition: all 0.17s ease-in-out;
+color: black;
+}
+ul#menu li a:hover {
+  font-size: 1.3em;
+  color: #00ACED;
+}
+
+.menu-fijo {
+	top: 0;
+	position: relative;
+	z-index: 100;
+}
+.parayax {width: 966px; margin: 0 auto 0 auto; height: auto; float: none; position: relative; display: block;}
+
+.regularContainer {width: 966px; margin: 0 auto 0 auto; height: auto; float: none; position: relative; display: block;}
+.subRegularContainer {width: 966px;margin: 0 auto 0 auto; height: auto; display: block; float: none;}
+.subText{ text-align: center; width: 90%; }
+.subTextMain {margin-left:; position: relative; width: auto; float: left; text-align: center; margin-left: 150px;}
+.logo{ margin-left: 15%; position: relative;}
+.logoo {float: left;position: relative; margin-left: 130px;}
+.textXL { font-size: 2em !important;line-height: 10px;}
+.textXL small {font-size: 0.6em;} 
+.circuleImage {border-radius: 100%; width: 300px;height: 300px;display: inline-block; margin: 0 20px 50px 50px;}
+#cabecera {margin-top: 0px;}
+.small1{}
+.textXL .smal2 {font-size: 0.6em; line-height: 0px; text-align: center;}
+.mainLogo {width: 235px; margin: 0px auto 0px auto;}
+
+.goodText {
+	width: 600px;
+	margin: 0 auto 0 auto;
+	display: block;
+	float: none;
+	display: block;
+	text-align: center;
+	margin-top: 0px
+}
+#zaroma {display: none;}
+.goodText p {font-size: 1.1em}
+
+.circuleText {padding-top: 50px; width: 878px; margin: 0 auto 0 auto; text-align: left !important; }
+#produccion {height: 400px; position: relative; height: auto;}
+.circuleText h4{text-align: center; padding-bottom: 50px}
+.circuleText ul {width: 250px; display: inline-block; font-size: 1.1em; }
+.circuleText ul li {text-align: left;}
+.circuleText .circuleImage { margin-left: 0px; margin-top: -140px}
+
+.menu{}
+#imageSlide{}
+#tienda {}
+#facebook {color: #3B5998; width: 25px; height: 25px; } 
+#instagramm {color: #ff0084; width: 25px; height: 25px; }
+#sm {
+	width: 90px;
+  display: inline-block;
+  margin-left: 0px;
+}
+#sm a {display: inline-block; padding: 10px 5px 10px 0;}
+
+.sm {
+transition: all 0.17s ease-in-out;
+-moz-transition: all 0.17s ease-in-out;
+-webkit-transition: all 0.17s ease-in-out;
+-o-transition: all 0.17s ease-in-out;
+}
+.sm:hover {
+  transform: scale(1.1) rotate(360deg);
+  -ms-transform: scale(1.1) rotate(360deg); /* IE 9 */
+  -moz-transform: scale(1.1) rotate(360deg); /* IE 9 */
+  -webkit-transform: scale(1.1) rotate(360deg); /* Safari and Chrome */
+}
+/*Instagram feed*/
+
+.instaInner {
+  position:relative;
+}
+
+
+.insta{
+    color: #ffffff;
+    height: 100%;
+    left: 50%;
+    position: absolute;
+  margin-left: -145px;
+    top: 0;
+    width: 288px;
+    z-index: 999;
+}
+
+.instaFeed {width: 100%; height: auto;   margin-left: 0px; margin-bottom: 0px;}
+
+
+.instaTitle {
+    color: #ffffff;
+    height: 100%;
+    left: 50%;
+    margin-left: -145px;
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 288px;
+    z-index: 999;
+}
+
+.insta i{
+  font-size:30px;
+}
+
+.insta h3{
+  color:#ffffff;
+  text-transform:none;
+  margin-top: 10px;
+}
+
+.instaFeed li ,.instaFeed li a{
+  position:relative;
+  display:inline;
+  width:20%;
+  
+}
+
+
+.instaFeed li a{
+  display:inline-block;
+
+  
+}
+
+.instaFeed li img {
+  display:inline-block;
+  width:100%;
+  
+  
+}
+
+
+.instaFeed li a:before{
+    background: rgba(36, 36, 36, 0.7);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  left:0;
+  top:0;
+  z-index:0;
+  display: block
+}
+
+.instaFeed li a:hover:before{
+  background: rgba(36, 36, 36, 0);
+}
+
+/*End instagram feed*/
+
+.imageStandard {width: 966px !important;height: 795px; margin: 0px auto 0 auto; float: none; display: block; }
+#img1{position: relative;background: url(A1.jpg) ; height: 560px !important; background-repeat: no-repeat; background-repeat: no-repeat; background-size: 100% 100%; width: 966px; margin: 0 auto 0 auto;} 
+#img2{background: url(A3.jpg); height: 862px !important; background-repeat: no-repeat; background-repeat: no-repeat; background-size: 100% 100%;}
+#img3{background: url(A4.jpg) ; height: 549px !important;  background-repeat: no-repeat; background-size: 100% 100%;}
+#img4{background: url(e9.jpg) ; height: 500px !important;  background-repeat: no-repeat; background-size: 100% 100%; margin-bottom: 50px;}
+#lugooImg {background: url(luugo.jpg) ; height: 215px !important; background-repeat: no-repeat; background-repeat: no-repeat; background-size: 100% 100%;}
+#subImg1{background: url(sol5.jpg) !important; height: 400px !important; background-repeat: no-repeat;}
+#subImg2{background: url(sol5.jpg) !important; height: 400px !important; background-repeat: no-repeat;}
+#subImg3{background: url(e3.jpg) ; height: 330px !important; background-repeat: no-repeat;}
+#subImg4{background: url(e8.jpg) ; height: 400px !important; background-repeat: no-repeat; margin-top: 20px;}
+
+#puntosVentacontainer {display: block; padding-bottom: 0px; padding-top: 0px; width: 966px;}
+#puntosVentacontainer h3 {line-height: 50px}
+#prensaImg {height: 1822px;  background-image: url(sob11.jpg); margin: 0 auto 0 auto;}
+#nuevaTiendaImg {margin: 0 auto 0 auto; background-repeat: no-repeat; background-size: 100% 100%; width: 966px; height: 492px; background: url(sob9.jpg);}
+
+footer {background-color: black;height: 200px; margin-bottom: 50px}
+#footerCnt {width: 966px; margin: 0 auto 0 auto;}
+.bigli {font-size: 1.4em}
+#contactInfo { text-align: center; float: left !important; margin-left: 50px; text-align: right;}
+
+#politicaInfo { text-align: center; padding-top: 20px; width: 200px;float: right;margin-right: 140px}
+
+.logoFooter { float: left !important; margin-left: 50px; margin-top: -20px;}
+#politicaInfo ul  {list-style: circle !important; text-align: right;}
+
+#politicaInfo ul li {margin-top: 10px; color: white; }
+#contactInfo ul li {margin-top: 10px; margin-bottom: 0px; color: white;} 
+
+
+
+
+
+
+.showPart {}
+.hidePart {}
+.circuleImageLink {}
+#circuleLink1 {}
+
+.displayMovil {display: none !important;}
+.displayAll {display: block !important;}
+
+
+@media only screen and (max-width: 1025px) {
+.parayax {width: 879px;}
+.regularContainer {width: 879px;}
+.subRegularContainer {width: 879px;}
+#img1 {width: 879px;}
+footer {width: 879px;}
+#puntosVentacontainer {width: 879px;}
+.imageStandard {width:879px;}
+#ventaImg {height: 400px;}
+
+}
+
+
+
+@media only screen and (max-width: 880px) {
+	  .circuleText {padding-top: 50px; width: 778px; margin: 0 auto 0 auto;}
+	.circuleText h4{text-align: center; padding-bottom: 50px}
+	.circuleText ul {width: 200px; display: inline-block; font-size: 1em; }
+	#regalosSolal {width: 65%; margin-left: 230px}
+	.logoo {margin-left: 50px;}
+	#puntosVentaimg {margin-left: 50px;}
+	.imageMenu {height: 200px; margin-bottom: 30px}
+  .item-img  img{ height: 200px; }
+  .item-img {height: 200px;}
+  .item {height: 200px;}
+  .item-hover .mask {height: 200px;}
+  .item-info {height: 200px;}
+  .parayax {width: 779px;}
+.regularContainer {width: 779px;}
+.subRegularContainer {width: 779px;}
+#img1 {width: 779px;}
+footer {width: 779px;}
+#puntosVentacontainer {width: 779px;}
+.imageStandard {width:779px !important;}
+#ventaImg {height: 370px;}
+}
+
+@media only screen and (max-width: 820px) {
+	#puntosVentaimg {margin-left: 20px;}
+}
+
+@media only screen and (max-width: 779px) {
+	#puntosVentaimg {display: block; margin: 0 auto 0 auto !important; float: none;}
+	#puntosVentacontainer { margin: -100 auto -100 auto;}
+  .insta {height: 10%;left: 0;padding-top: 220px;width:100%;margin-left: 0;}
+  .instaFeed li, .instaFeed li a{width:100%;}
+  .goodText {width: 400px;}
+  .circuleText h4 {padding-bottom: 10px;}
+  .circuleText .circuleImage {width: 300px;height: 300px; margin: 0 auto 10px auto !important; display: block; float: none;}
+  .circuleText {padding-top: 50px; width: 600px; margin: 0 auto 0 auto;}
+  #produccion {position: relative; padding-bottom: 70px}
+   .circuleText ul {width: 300px; font-size: 1em; text-align: center; margin: 0 auto 0 auto; display: block !important; font-size: 1.2em;}
+   #produccion {margin-bottom: 100px;}
+   #puntosVentatext {width: 320px; margin: 30px auto 0 auto;}
+   #prensaImg {height: 520px;}
+   .imageStandard {height: 460px;}
+   big {display: inline-block; font-size: 2em; padding-bottom: 25px}
+   #regalosSolal{width: 478px;position: relative; margin: 50px auto 0 auto; }
+   .logoo {width: 125px; margin: 0 auto 0 auto; display: block; float: none;}
+   .logoo img {margin-left: 0px;}
+   .textXL { font-size: 1.8em !important;line-height: 10px;}
+	.textXL small {font-size: 0.6em;}
+	.circuleText ul {width: 450px; display: inline-block; font-size: 1.1em;}
+	.imageMenu {
+	display: inline-block;
+	width: 44.5%;
+	height: 220px;
+	margin: 10px 2.3% 10px 2.3%;
+	border: solid 1px;
+	position: relative;}
+  .item {
+  display: inline-block;
+  width: 44.5%;
+  height: 220px;
+  margin: 10px 2.3% 10px 2.3%;
+  border: solid 1px;
+  position: relative;
+
+  }
+  .item-img  img{ height: 220px; }
+  .item-img {height: 220px;}
+  .item-hover .mask {height: 220px;}
+  .item-info {height: 220px;}
+   .parayax {width: 600px !important;}
+.regularContainer {width: 600px !important;}
+.subRegularContainer {width: 600px !important;}
+#img1 {width: 600px !important;} 
+#footerCnt {width: 461px; margin-left: 0px;}
+#menu-contenedor {display: none;}
+#menu {display: none;}
+#puntosVentacontainer {width: 600px;}
+.imageStandard {width:600px !important;}
+.subText {margin-top: 10px !important}
+#img1{height: 350px !important;}
+#img2{height: 350px !important;}
+#img3{height: 350px !important;}
+#img4{height: 350px !important;}
+#subImg3{height: 350px !important;}
+#subImg4{height: 350px !important;}
+.mainLogo {margin-top: 0px;}
+.imageStandard {height: 350px !important;}
+h3 {font-size: 2.4em !important;}
+footer {width: 600px !important;}
+ #solalNavidad {margin-top: 0px; position: relative; height: auto;}
+#ventaImg {height: 280px !important;}
+}
+ @media only screen and (max-width: 600px) {
+ 		.imageMenu {height: 200px;}
+    .item {height: 200px;}
+      .item-img  img{ height: 200px; }
+  .item-img {height: 200px;}
+  .item-hover .mask {height: 200px;}
+  .item-info {height: 200px;}
+  #footerCnt {width: 441px; margin-left: 0px; margin: 0 auto 0 auto !important;}
+  .parayax {width: 478px !important;}
+.regularContainer {width: 478px !important;}
+.subRegularContainer {width: 478px !important;}
+#img1 {width: 478px !important;}
+#produccion {width: 478px! important; margin: 0 auto 0 auto;}
+#puntosVentacontainer {width: 478px! important; margin: 0 auto 0 auto; padding-top: 20px; padding-bottom: 20px;}
+#menu-contenedor {display: none;}
+#solalNavidad {margin-top: -20px}
+#menu {display: none;}
+h3 {font-size: 2em !important;}
+footer {width: 478px !important;}
+.imageMenu {display: none;}
+#puntosVentacontainer {width: 478px;}
+.imageStandard {width:478px;}
+#ventaImg {height: 210px !important;}
+
+ }
+
+@media only screen and (max-width:479px) {
+  .imageMenuu {display: none;}
+   .imageStandard {height: 260px;}
+  .circuleImage {width: 250px;height: 250px;display: block; margin: 20px auto 20px auto !important; float: none;}
+  .insta {height: 10%;left: 0;padding: 135px 0 0 0;width:315px;margin-left: 0;}
+  .instaFeed li, .instaFeed li a{width:315px;}
+  .goodText {width: 315px;}
+
+   .circuleText {padding-top: 50px; width: 315px; margin: 0;}
+	.imageMenu {height: 180px; width: 44.4%; }
+    .item-img  img{ height: 180px; }
+  .item-img {height: 180px;}
+  .item {height: 180px;}
+  .item-hover .mask {height: 180px;}
+  .item-info {height: 180px;}
+     big {display: inline-block; font-size: 2em; padding-bottom: 25px}
+   #regalosSolal{width: 90%;position: relative; margin: 50px auto 0 auto; }
+      #regalosSolal .textXL .smal2 {font-size: 0.6em !important;line-height: 10px;}
+      #produccion {padding-bottom: 30px !important; padding-top: 10px !important;}
+
+.logo{ margin-left: auto;}
+.logoFooter {float: none; position: relative; margin: 0 auto 0 auto; width: 135px;}
+#contactInfo { margin: 0 auto 0 auto !important; width: 200px;}
+#contactInfo ul {margin-left: 0px !important;}
+#contactInfo ul li {text-align:  center;}
+#footerCnt {width: 315px; margin: 0;}
+
+
+
+  .parayax {width: 315px !important;}
+.regularContainer {width: 315px !important;}
+.subRegularContainer {width: 315px !important;}
+#img1 {width: 315px !important;position: relative !important;}
+#puntosVentacontainer {width: 100% !important; margin: 0 auto 0 auto; padding-top: 20px; padding-bottom: 20px; padding-left: 0px !important}
+#puntosVentacontainer h3 {margin-bottom: 8px; padding-bottom: 0px; font-size: 1.7em !important;}
+h3 {font-size: 1.8em !important;}
+footer {width: 320px !important; height: auto;  }
+.mainLogo {display: none;}
+#img1{height: 373px !important; background-image: url(mov1.jpg); width: 315px;}
+#img2 {background-image: url(mov5.jpg); height: 385px !important; width: 315px; margin-top: 0px;}
+#img3 {background-image: url(mov6.jpg); width: 315px !important; height: 334px !important; margin-top: 0px;}
+#lugooImg {background: url(luugoMovil.jpg) ; height: 100px !important; background-repeat: no-repeat; background-repeat: no-repeat; background-size: 100% 100%; margin: 10px 0 10px 0;}
+#img4 {background-image: url(mov11.jpg); height: 247px !important; margin-bottom: 40px;}
+#subImg3{background: url(mov7.jpg) ; height: 146px !important;width: 315px; background-repeat: no-repeat;}
+
+.imageStandard {height: 250px !important;}
+.circuleImage {height: 220px !important; width: 220px !important; margin: 10px auto 10px auto; padding-top: 5px;padding-bottom: 5px;}
+#produccion {width: 315px! important; margin: 0 auto 0 auto !important; padding-top: 0px !important; }
+#produccion ul {float: none !important; margin: 0 auto 0 auto; width: 315px;}
+   .circuleText ul {width: 315px !important; display: inline-block; font-size: 1em !important; }
+.circuleText ul li {width: 250px !important; margin: 0 auto 0 auto; text-align: center !important;line-height: 20px !important;}
+.circuleText ul li br {display: none;}
+#li1 {width: 270px !important;padding-bottom: 10px;}
+#li2 {width: 250px !important}
+#produccion ul li {font-size: 0.93em; margin: 5px 0 5px 0; width: 310px; margin: 0 auto 0 auto; }
+.goodText big {font-size: 1.4em; padding-bottom: 5px}
+.goodText h1 {margin-bottom: 0px; padding-bottom: 0px; eight: lfont-wighter !important; margin-top: 60px; font-size: 2.3em !important;}
+.goodText p {font-size: 0.9em;}
+h2 {font-size: 2em !important; margin-bottom: 0px !important; padding-top: 20px;}
+.imageStandard {width:315px !important; margin: 0 auto 0 auto; }
+#ventaImg {height: 305px !important; background-image: url(mov8.jpg); width: 315px !important; margin-left: 0 !important; padding-left: 0 !important;}
+ h3 {line-height: 30px !important;}
+ #prensaImg {width: 315px !important; height: 780px !important;  background-image: url(mov10.jpg); margin: 0 auto 0 auto; background-size: 100% 100%; margin-top: 20px; margin-bottom: 40px !important;}
+.logoFooter { float: none !important; margin: 0 auto 0 auto !important; display: block;}
+#footerCnt {width: 315px !important; margin: 0 auto 0 auto !important;}
+#contactInfo { text-align: center; float: none !important; margin-left: 0 auto 0 auto; padding-bottom: 20px; width: 225px;}
+#politicaInfo { text-align: center; padding-top: 0px; float: none; display: block; margin: 0 auto 0 auto;}
+#politicaInfo ul { margin: 0 auto 0 auto !important;}
+#contactInfo ul {margin: 0 auto 0 auto !important; } 
+
+.cabeceraTienda {width: 315px !important; margin: 0 auto 0 auto; background-size: 100% 100%; height: 340px}
+#cabecera2 {height: 350px;}
+.tiendaLogo {width: 100px; height: 100px; margin: 25px auto 0 auto !important; float: none; display: block;}
+.textoTienda {margin: -30px auto 0 auto; display: block; float: none; width: 300px !important; text-align: center;}
+.textoTienda h3 {text-align: center !important; margin-bottom: 0px;}
+.textoTienda p {text-align: center; width: 280px !important; margin: 0 auto 0 auto;}
+#zaroma {display: block; width: 315px !important; height: 176px !important;  border-radius: none !important; margin: 0 auto 0 auto;}
+#mov4 {width: 315px; height: 212px;background-image: url(mov4.jpg); margin: 0 auto 0 auto; margin-top: 35px;}
+#mov2 {width: 315px; height: 230px;background-image: url(mov2.jpg); margin: 0 auto 0 auto; margin-top: 35px;}
+.circuleImage {width: 315px !important; height: 176px !important;  border-radius: none !important; margin: 0 auto 0 auto;}
+
+.tiendaOpt {width: 315px; margin: 0 5px 0 5px; display: inline-block; text-align: left;}
+.tiendaOpt img {width: 120px; height: 120px;float: left; margin-right: 10px;}
+.tiendaOpt ul {margin-left: 0px; text-align: left;}
+.tiendaOpt ul li {margin-top: 0px; margin-bottom: 0px; display: inline-block;}
+.tiendaOpt .linkOpt {display: block !important; float: none; }
+#Opt2 {display: block;}
+#tiendaOnline .goodText {width: 315px;}
+#fotoFondo {width: 315px; margin: 0 auto 0 auto; height: auto !important; background-image: none;}
+#fotoFondo ul {float: right;text-align: left; width: 160px; margin-top: 15px; font-size: 0.9em;}
+#fotoFondo ul li {line-height: 12px} 
+#regalosSolal {margin-top: 0px !important; width: 315px !important;}
+#regalosSolal .textXL {margin-bottom: 20px; font-weight: lighter !important; font-size: 1.5em !important;line-height: 30px; }
+ #solalNavidad {margin-bottom: 10px; margin-top: 0px; position: relative; height: auto;}
+#prensaNacional {margin-bottom: 17px;}
+#prensaNacional h3 {margin-top: 0px; padding-top: 0px;}
+#prensaNacional p {font-size:  1em !important; width: 315px !important; margin: 0 auto 0 auto; padding-bottom: 10px;}
+#tiendaOnline br {display: none;}
+#tiendaOnline .displayMovil {display: block !important;}
+#tiendaOnline .goodText {width: 310px !important; margin: 0 auto 50px auto;}
+#tiendaOnline h2 {padding-top: 25px; padding-bottom: 12px;}
+#politicaInfo {border-top: solid 3px white; border-bottom: solid 3px white; width: 80% !important; margin: 5px auto 0 auto;}
+#politicaInfo ul li {text-align: left; margin-left: 30px; color: white;list-style: circle !important;}
+#politicaInfo ul li a {color: white;}
+#bonitoContainer .goodText p br {display: none;}
+#bonitoContainer .goodText p .displayMovil {display: block;}
+#tiendaContainer {border-top: solid 2px gray; border-bottom: solid 2px gray; margin-bottom: 25px}
+.displayAll {display: block !important;}
+#li2 {width: 300px !important;}
+#produccion ul li .displayMovil {display: block !important;}
+#solalNavidad br {display: none;}
+#solalNavidad .displayMovil {display: block !important;}
+#cabecera1 {background-image: url(tienda2.jpg); width: 315px !important; margin: 0 auto 0 auto; height: 220px !important; background-size: 100% 100%;background-repeat: no-repeat;}
+
+#cabecera2 {background-image: url(tienda1.jpg); width: 315px !important; margin: 0 auto 0 auto; height: 220px !important;background-size: 100% 100%;background-repeat: no-repeat;}
+
+#cabecera3 {background-image: url(tienda3.jpg); width: 315px !important; margin: 0 auto 0 auto; height: 220px !important;background-size: 100% 100%;background-repeat: no-repeat;}
+#linkPrincipal {width: 200px; display: inline-block; font-size: 1em;}
+
+.nav-collapse {display: block !important;z-index: 9999;}
+.nav-collapse  ul li {margin-top: 0px !important;}
+#nuevaTiendaSolal {margin-bottom: 25px;}
+#nuevaTiendaSolal h3 {padding-top: 0px;}
+
+#nuevaTiendaImg {margin: 0 auto 0 auto; background-repeat: no-repeat; background-size: 100% 100%; width: 100% !important; height: 358px; background: url(mov9.jpg);}
+
+
+ }
