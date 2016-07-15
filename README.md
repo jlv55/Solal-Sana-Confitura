@@ -1,2 +1,2 @@
 # Solal-Sana-Confitura
-Inspiration Theme for Solal Sana Confitura s. It is a landing page example for Solal Sana Confitura S.L. made by me.
+Inspiration Theme for Solal Sana Confitura S.L. It is a landing page example made by me to inspire the last Solal Sana Confitura web page.
